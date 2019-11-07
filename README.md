@@ -1,0 +1,10 @@
+This repo demonstrates a basic website using node.js.  
+
+index.js imports any required modules in order to imitate a file server while referencing any html files in the same directory, throwing an error if attempted access to a non-listed page occurs.
+
+It supporsts these 4 pages on localhost:8080:
+
+* / (index page)
+* /about
+* /contact-me
+* 404 for anything not listed above
